@@ -5,10 +5,10 @@ import sys
 from contextlib import suppress
 from time import sleep
 
-import AmeliaRobot
+import IzumiRobot
 
-from AmeliaRobot import dispatcher
-from AmeliaRobot.modules.helper_funcs.chat_status import dev_plus
+from IzumiRobot import dispatcher
+from IzumiRobot.modules.helper_funcs.chat_status import dev_plus
 from telegram import TelegramError, Update
 from telegram.error import Unauthorized
 from telegram.ext import CallbackContext, CommandHandler, run_async

@@ -1,11 +1,11 @@
-from AmeliaRobot import telethn as tbot
+from IzumiRobot import telethn as tbot
 import os
 import re
 import bs4
 import requests
 from telethon import types
 from telethon.tl import functions
-from AmeliaRobot.events import register
+from IzumiRobot.events import register
 
 langi = "en"
 

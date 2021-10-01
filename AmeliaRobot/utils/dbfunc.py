@@ -1,4 +1,4 @@
-from AmeliaRobot.mongo import db
+from IzumiRobot.mongo import db
 from typing import Dict, List, Union
 
 

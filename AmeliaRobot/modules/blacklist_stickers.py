@@ -1,17 +1,17 @@
 import html
 from typing import Optional
 
-import AmeliaRobot.modules.sql.blsticker_sql as sql
-from AmeliaRobot import LOGGER, dispatcher
-from AmeliaRobot.modules.connection import connected
-from AmeliaRobot.modules.disable import DisableAbleCommandHandler
-from AmeliaRobot.modules.helper_funcs.alternate import send_message
-from AmeliaRobot.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from AmeliaRobot.modules.helper_funcs.misc import split_message
-from AmeliaRobot.modules.helper_funcs.string_handling import extract_time
+import IzumiRobot.modules.sql.blsticker_sql as sql
+from IzumiRobot import LOGGER, dispatcher
+from IzumiRobot.modules.connection import connected
+from IzumiRobot.modules.disable import DisableAbleCommandHandler
+from IzumiRobot.modules.helper_funcs.alternate import send_message
+from IzumiRobot.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from IzumiRobot.modules.helper_funcs.misc import split_message
+from IzumiRobot.modules.helper_funcs.string_handling import extract_time
 
-from AmeliaRobot.modules.log_channel import loggable
-from AmeliaRobot.modules.warns import warn
+from IzumiRobot.modules.log_channel import loggable
+from IzumiRobot.modules.warns import warn
 from telegram import Chat, Message, ParseMode, Update, User, ChatPermissions
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, MessageHandler

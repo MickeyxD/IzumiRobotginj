@@ -5,7 +5,7 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-from AmeliaRobot import (
+from IzumiRobot import (
     DEV_USERS,
     LOGGER,
     OWNER_ID,
@@ -15,8 +15,8 @@ from AmeliaRobot import (
     WOLVES,
     dispatcher,
 )
-from AmeliaRobot.modules.disable import DisableAbleCommandHandler
-from AmeliaRobot.modules.helper_funcs.chat_status import (
+from IzumiRobot.modules.disable import DisableAbleCommandHandler
+from IzumiRobot.modules.helper_funcs.chat_status import (
     bot_admin,
     can_restrict,
     connection_status,
@@ -27,9 +27,9 @@ from AmeliaRobot.modules.helper_funcs.chat_status import (
     user_can_ban,
     can_delete,
 )
-from AmeliaRobot.modules.helper_funcs.extraction import extract_user_and_text
-from AmeliaRobot.modules.helper_funcs.string_handling import extract_time
-from AmeliaRobot.modules.log_channel import gloggable, loggable
+from IzumiRobot.modules.helper_funcs.extraction import extract_user_and_text
+from IzumiRobot.modules.helper_funcs.string_handling import extract_time
+from IzumiRobot.modules.log_channel import gloggable, loggable
 
 
 @run_async

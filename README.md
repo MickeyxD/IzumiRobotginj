@@ -9,7 +9,7 @@
 <a href="https://t.me/warbotzsupport" alt="Telegram!"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
 
 ### Bot And Channel 
-* Bot Link:  <a href="http://t.me/AmeliaGroup_bot" alt=" Amelia "> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-AmeliaRobot-blue" /> </a>
+* Bot Link:  <a href="http://t.me/AmeliaGroup_bot" alt=" Amelia "> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-IzumiRobot-blue" /> </a>
 * Support Channel: <a  href="https://t.me/warbotz" alt="Help Centre Logs"> <img  src="https://img.shields.io/badge/%F0%9F%92%A1-Ameliagroupbot%20Update%20Channel-9cf" /> </a>
 
 ### Creating your own modules.
@@ -20,7 +20,7 @@ All that is needed is that your .py file is in the modules folder.
 
 To add commands, make sure to import the dispatcher via
 
-from AmeliaRobot import dispatcher.
+from IzumiRobot import dispatcher.
 
 You can then add commands using the usual
 
@@ -52,7 +52,7 @@ For queries or any issues regarding the bot please open an issue ticket or visit
 ## How to setup on Heroku 
 For starters click on this button 
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/war-legend/AmeliaRobot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/war-legend/IzumiRobot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 
 ## Our Telegram Channel and Group

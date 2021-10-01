@@ -2,11 +2,11 @@ import html
 import random
 import time
 
-import AmeliaRobot.modules.fun_strings as fun_strings
-from AmeliaRobot import dispatcher
-from AmeliaRobot.modules.disable import DisableAbleCommandHandler
-from AmeliaRobot.modules.helper_funcs.chat_status import is_user_admin
-from AmeliaRobot.modules.helper_funcs.extraction import extract_user
+import IzumiRobot.modules.fun_strings as fun_strings
+from IzumiRobot import dispatcher
+from IzumiRobot.modules.disable import DisableAbleCommandHandler
+from IzumiRobot.modules.helper_funcs.chat_status import is_user_admin
+from IzumiRobot.modules.helper_funcs.extraction import extract_user
 from telegram import ChatPermissions, ParseMode, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, run_async

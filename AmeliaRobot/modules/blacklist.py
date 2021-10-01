@@ -6,18 +6,18 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, MessageHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-import AmeliaRobot.modules.sql.blacklist_sql as sql
-from AmeliaRobot import dispatcher, LOGGER
-from AmeliaRobot.modules.disable import DisableAbleCommandHandler
-from AmeliaRobot.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from AmeliaRobot.modules.helper_funcs.extraction import extract_text
-from AmeliaRobot.modules.helper_funcs.misc import split_message
-from AmeliaRobot.modules.log_channel import loggable
-from AmeliaRobot.modules.warns import warn
-from AmeliaRobot.modules.helper_funcs.string_handling import extract_time
-from AmeliaRobot.modules.connection import connected
-from AmeliaRobot.modules.sql.approve_sql import is_approved
-from AmeliaRobot.modules.helper_funcs.alternate import send_message, typing_action
+import IzumiRobot.modules.sql.blacklist_sql as sql
+from IzumiRobot import dispatcher, LOGGER
+from IzumiRobot.modules.disable import DisableAbleCommandHandler
+from IzumiRobot.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from IzumiRobot.modules.helper_funcs.extraction import extract_text
+from IzumiRobot.modules.helper_funcs.misc import split_message
+from IzumiRobot.modules.log_channel import loggable
+from IzumiRobot.modules.warns import warn
+from IzumiRobot.modules.helper_funcs.string_handling import extract_time
+from IzumiRobot.modules.connection import connected
+from IzumiRobot.modules.sql.approve_sql import is_approved
+from IzumiRobot.modules.helper_funcs.alternate import send_message, typing_action
 
 BLACKLIST_GROUP = 11
 

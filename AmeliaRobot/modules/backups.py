@@ -5,23 +5,23 @@ from telegram import ParseMode, Message
 from telegram.error import BadRequest
 from telegram.ext import CommandHandler, run_async
 
-import AmeliaRobot.modules.sql.notes_sql as sql
-from AmeliaRobot import dispatcher, LOGGER, OWNER_ID, JOIN_LOGGER, SUPPORT_CHAT
-from AmeliaRobot.__main__ import DATA_IMPORT
-from AmeliaRobot.modules.helper_funcs.chat_status import user_admin
-from AmeliaRobot.modules.helper_funcs.alternate import typing_action
+import IzumiRobot.modules.sql.notes_sql as sql
+from IzumiRobot import dispatcher, LOGGER, OWNER_ID, JOIN_LOGGER, SUPPORT_CHAT
+from IzumiRobot.__main__ import DATA_IMPORT
+from IzumiRobot.modules.helper_funcs.chat_status import user_admin
+from IzumiRobot.modules.helper_funcs.alternate import typing_action
 
-# from AmeliaRobot.modules.rules import get_rules
-import AmeliaRobot.modules.sql.rules_sql as rulessql
+# from IzumiRobot.modules.rules import get_rules
+import IzumiRobot.modules.sql.rules_sql as rulessql
 
-# from AmeliaRobot.modules.sql import warns_sql as warnssql
-import AmeliaRobot.modules.sql.blacklist_sql as blacklistsql
-from AmeliaRobot.modules.sql import disable_sql as disabledsql
+# from IzumiRobot.modules.sql import warns_sql as warnssql
+import IzumiRobot.modules.sql.blacklist_sql as blacklistsql
+from IzumiRobot.modules.sql import disable_sql as disabledsql
 
-# from AmeliaRobot.modules.sql import cust_filters_sql as filtersql
-# import AmeliaRobot.modules.sql.welcome_sql as welcsql
-import AmeliaRobot.modules.sql.locks_sql as locksql
-from AmeliaRobot.modules.connection import connected
+# from IzumiRobot.modules.sql import cust_filters_sql as filtersql
+# import IzumiRobot.modules.sql.welcome_sql as welcsql
+import IzumiRobot.modules.sql.locks_sql as locksql
+from IzumiRobot.modules.connection import connected
 
 
 @run_async

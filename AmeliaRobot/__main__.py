@@ -4,7 +4,7 @@ import re
 from sys import argv
 from typing import Optional
 
-from AmeliaRobot import (
+from IzumiRobot import (
     ALLOW_EXCL,
     CERT_PATH,
     DONATION_LINK,
@@ -25,9 +25,9 @@ from AmeliaRobot import (
 
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from AmeliaRobot.modules import ALL_MODULES
-from AmeliaRobot.modules.helper_funcs.chat_status import is_user_admin
-from AmeliaRobot.modules.helper_funcs.misc import paginate_modules
+from IzumiRobot.modules import ALL_MODULES
+from IzumiRobot.modules.helper_funcs.chat_status import is_user_admin
+from IzumiRobot.modules.helper_funcs.misc import paginate_modules
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.error import (
     BadRequest,
@@ -117,7 +117,7 @@ CHAT_SETTINGS = {}
 USER_SETTINGS = {}
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("AmeliaRobot.modules." + module_name)
+    imported_module = importlib.import_module("IzumiRobot.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 
@@ -357,7 +357,7 @@ def amelia_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_bot licensed under the GNU General Public License v3.0_
-                 \nHere is the [💾Repository](https://github.com/war-legend/AmeliaRobot).
+                 \nHere is the [💾Repository](https://github.com/war-legend/IzumiRobot).
                  \n\nIf you have any question about amelia, let us know at @warbotzchat .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,

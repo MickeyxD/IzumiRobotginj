@@ -1,5 +1,5 @@
-from AmeliaRobot.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
-from AmeliaRobot import DRAGONS
+from IzumiRobot.modules.helper_funcs.telethn import IMMUNE_USERS, telethn
+from IzumiRobot import DRAGONS
 from telethon.tl.types import ChannelParticipantsAdmins
 
 

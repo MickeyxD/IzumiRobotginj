@@ -2,7 +2,7 @@
 
 import aiohttp
 from pyrogram import filters
-from AmeliaRobot import pbot as asuna
+from IzumiRobot import pbot as asuna
 
 @asuna.on_message(filters.command('pokedex'))
 async def PokeDex(_, message):

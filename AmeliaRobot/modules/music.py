@@ -12,9 +12,9 @@ from tswift import Song
 from youtube_dl import YoutubeDL
 from youtubesearchpython import SearchVideos
 
-from AmeliaRobot.conf import get_str_key
-from AmeliaRobot.pyrogramee.pluginshelper import get_text, progress
-from AmeliaRobot import pbot
+from IzumiRobot.conf import get_str_key
+from IzumiRobot.pyrogramee.pluginshelper import get_text, progress
+from IzumiRobot import pbot
 
 GENIUS = get_str_key("GENIUS_API_TOKEN", None)
 

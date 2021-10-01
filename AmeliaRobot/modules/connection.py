@@ -5,10 +5,10 @@ from telegram import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton, Upda
 from telegram.error import BadRequest, Unauthorized
 from telegram.ext import CommandHandler, CallbackQueryHandler, run_async
 
-import AmeliaRobot.modules.sql.connection_sql as sql
-from AmeliaRobot import dispatcher, DRAGONS, DEV_USERS
-from AmeliaRobot.modules.helper_funcs import chat_status
-from AmeliaRobot.modules.helper_funcs.alternate import send_message, typing_action
+import IzumiRobot.modules.sql.connection_sql as sql
+from IzumiRobot import dispatcher, DRAGONS, DEV_USERS
+from IzumiRobot.modules.helper_funcs import chat_status
+from IzumiRobot.modules.helper_funcs.alternate import send_message, typing_action
 
 user_admin = chat_status.user_admin
 

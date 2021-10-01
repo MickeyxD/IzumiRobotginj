@@ -4,15 +4,15 @@ import re
 
 from telegram import Message, Chat, Update, User, ChatPermissions
 
-from AmeliaRobot import TIGERS, WOLVES, dispatcher
-from AmeliaRobot.modules.helper_funcs.chat_status import (
+from IzumiRobot import TIGERS, WOLVES, dispatcher
+from IzumiRobot.modules.helper_funcs.chat_status import (
     bot_admin,
     is_user_admin,
     user_admin,
     user_admin_no_reply,
 )
-from AmeliaRobot.modules.log_channel import loggable
-from AmeliaRobot.modules.sql import antiflood_sql as sql
+from IzumiRobot.modules.log_channel import loggable
+from IzumiRobot.modules.sql import antiflood_sql as sql
 from telegram.error import BadRequest
 from telegram.ext import (
     CallbackContext,
@@ -23,10 +23,10 @@ from telegram.ext import (
     run_async,
 )
 from telegram.utils.helpers import mention_html, escape_markdown
-from AmeliaRobot.modules.helper_funcs.string_handling import extract_time
-from AmeliaRobot.modules.connection import connected
-from AmeliaRobot.modules.helper_funcs.alternate import send_message
-from AmeliaRobot.modules.sql.approve_sql import is_approved
+from IzumiRobot.modules.helper_funcs.string_handling import extract_time
+from IzumiRobot.modules.connection import connected
+from IzumiRobot.modules.helper_funcs.alternate import send_message
+from IzumiRobot.modules.sql.approve_sql import is_approved
 
 FLOOD_GROUP = 3
 

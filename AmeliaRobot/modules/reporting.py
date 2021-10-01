@@ -1,9 +1,9 @@
 import html
 
-from AmeliaRobot import LOGGER, DRAGONS, TIGERS, WOLVES, dispatcher
-from AmeliaRobot.modules.helper_funcs.chat_status import user_admin, user_not_admin
-from AmeliaRobot.modules.log_channel import loggable
-from AmeliaRobot.modules.sql import reporting_sql as sql
+from IzumiRobot import LOGGER, DRAGONS, TIGERS, WOLVES, dispatcher
+from IzumiRobot.modules.helper_funcs.chat_status import user_admin, user_not_admin
+from IzumiRobot.modules.log_channel import loggable
+from IzumiRobot.modules.sql import reporting_sql as sql
 from telegram import Chat, InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.error import BadRequest, Unauthorized
 from telegram.ext import (

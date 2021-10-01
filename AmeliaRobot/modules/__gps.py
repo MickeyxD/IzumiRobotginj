@@ -1,8 +1,8 @@
 import os
-from AmeliaRobot import telethn as tbot
+from IzumiRobot import telethn as tbot
 from geopy.geocoders import Nominatim
-from AmeliaRobot.events import register
-from AmeliaRobot import *
+from IzumiRobot.events import register
+from IzumiRobot import *
 from telethon import *
 from telethon.tl import *
 

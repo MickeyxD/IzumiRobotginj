@@ -1,9 +1,9 @@
 from time import sleep
 
-import AmeliaRobot.modules.sql.global_bans_sql as gban_sql
-import AmeliaRobot.modules.sql.users_sql as user_sql
-from AmeliaRobot import DEV_USERS, OWNER_ID, dispatcher
-from AmeliaRobot.modules.helper_funcs.chat_status import dev_plus
+import IzumiRobot.modules.sql.global_bans_sql as gban_sql
+import IzumiRobot.modules.sql.users_sql as user_sql
+from IzumiRobot import DEV_USERS, OWNER_ID, dispatcher
+from IzumiRobot.modules.helper_funcs.chat_status import dev_plus
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.error import BadRequest, Unauthorized
 from telegram.ext import (
