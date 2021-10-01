@@ -1,5 +1,5 @@
 # credits  @chsaiujwal @daisyxrobot
-# ported to Amelia @itsmelegend
+# ported to Izumi @itsmelegend
 
 import urllib.request
 

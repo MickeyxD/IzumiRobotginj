@@ -55,7 +55,7 @@ from pyrogram import filters
 
 from IzumiRobot.helper_extra.aichat import add_chat, get_session, remove_chat
 from IzumiRobot.pyrogramee.pluginshelper import admins_only, edit_or_reply
-from IzumiRobot import pbot as Amelia
+from IzumiRobot import pbot as Izumi
 
 translator = google_translator()
 
@@ -69,7 +69,7 @@ en_chats = []
 # AI Chat (C) 2020-2021 by @InukaAsith
 
 
-@Amelia.on_message(filters.command("chatbot") & ~filters.edited & ~filters.bot)
+@Izumi.on_message(filters.command("chatbot") & ~filters.edited & ~filters.bot)
 @admins_only
 async def hmm(_, message):
     global amelia_chats
@@ -113,7 +113,7 @@ async def hmm(_, message):
         )
 
 
-@Amelia.on_message(
+@Izumi.on_message(
     filters.text & filters.reply & ~filters.bot & ~filters.via_bot & ~filters.forwarded,
     group=2,
 )
@@ -217,7 +217,7 @@ async def hmm(client, message):
             print(e)
 
 
-@Amelia.on_message(filters.text & filters.private & ~filters.reply & ~filters.bot)
+@Izumi.on_message(filters.text & filters.private & ~filters.reply & ~filters.bot)
 async def inuka(client, message):
     msg = message.text
     if msg.startswith("/") or msg.startswith("@"):
@@ -287,8 +287,8 @@ async def inuka(client, message):
         print(e)
 
 
-@Amelia.on_message(
-    filters.regex("amelia|Amelia|warlegend|hello|hi")
+@Izumi.on_message(
+    filters.regex("amelia|Izumi|warlegend|hello|hi")
     & ~filters.bot
     & ~filters.via_bot
     & ~filters.forwarded
