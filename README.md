@@ -58,7 +58,7 @@ For starters click on this button
 ## Our Telegram Channel and Group
 
 * [Warbotz](https://telegram.dog/thewarbotz)
-* [WarBotzChat](https://telegram.dog/WarBotzsupport)
+* [WarBotzChat](https://telegram.dog/IzumiBot_Support)
 
 ## Credits, and Thanks to 
 *   [Abhishek](https://telegram.dog/xAbhisheksingh)
