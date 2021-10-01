@@ -18,9 +18,9 @@ jobs:
 
         with:
 
-          find: "Amelia"
+          find: "war-legend"
 
-          replace: "Izumi"
+          replace: "MickeyxD"
 
       - name: Create Pull Request
 
