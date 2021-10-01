@@ -18,9 +18,9 @@ jobs:
 
         with:
 
-          find: "war-legend"
+          find: "WarBotzsupport"
 
-          replace: "MickeyxD"
+          replace: "IzumiBot_Support"
 
       - name: Create Pull Request
 
