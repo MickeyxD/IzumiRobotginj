@@ -1,4 +1,4 @@
-#war-legend
+#MickeyxD
 import asyncio
 import sys
 
