@@ -18,9 +18,9 @@ jobs:
 
         with:
 
-          find: "WarBotzsupport"
+          find: "IzumiRobot"
 
-          replace: "IzumiBot_Support"
+          replace: "AmeliaRobot"
 
       - name: Create Pull Request
 
