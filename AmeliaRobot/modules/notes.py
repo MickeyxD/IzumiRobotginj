@@ -3,14 +3,14 @@ from io import BytesIO
 import random
 from typing import Optional
 
-import IzumiRobot.modules.sql.notes_sql as sql
-from IzumiRobot import LOGGER, JOIN_LOGGER, SUPPORT_CHAT, dispatcher, DRAGONS
-from IzumiRobot.modules.disable import DisableAbleCommandHandler
-from IzumiRobot.modules.helper_funcs.handlers import MessageHandlerChecker
-from IzumiRobot.modules.helper_funcs.chat_status import user_admin, connection_status
-from IzumiRobot.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from IzumiRobot.modules.helper_funcs.msg_types import get_note_type
-from IzumiRobot.modules.helper_funcs.string_handling import (
+import AmeliaRobot.modules.sql.notes_sql as sql
+from AmeliaRobot import LOGGER, JOIN_LOGGER, SUPPORT_CHAT, dispatcher, DRAGONS
+from AmeliaRobot.modules.disable import DisableAbleCommandHandler
+from AmeliaRobot.modules.helper_funcs.handlers import MessageHandlerChecker
+from AmeliaRobot.modules.helper_funcs.chat_status import user_admin, connection_status
+from AmeliaRobot.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from AmeliaRobot.modules.helper_funcs.msg_types import get_note_type
+from AmeliaRobot.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
 )
 from telegram import (

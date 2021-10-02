@@ -1,6 +1,6 @@
-from IzumiRobot.events import register
-from IzumiRobot import OWNER_ID
-from IzumiRobot import telethn as tbot
+from AmeliaRobot.events import register
+from AmeliaRobot import OWNER_ID
+from AmeliaRobot import telethn as tbot
 import os 
 from PIL import Image, ImageDraw, ImageFont
 
@@ -20,13 +20,13 @@ async def lego(event):
  await event.reply('Creating your logo...wait!')
  try:
     text = event.pattern_match.group(1)
-    img = Image.open('./IzumiRobot/resources/blackbg.jpg')
+    img = Image.open('./AmeliaRobot/resources/blackbg.jpg')
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
     pointsize = 500
     fillcolor = "gold"
     shadowcolor = "blue"
-    font = ImageFont.truetype("./IzumiRobot/resources/Chopsic.otf", 330)
+    font = ImageFont.truetype("./AmeliaRobot/resources/Chopsic.otf", 330)
     w, h = draw.textsize(text, font=font)
     h += int(h*0.21)
     image_width, image_height = img.size
@@ -60,13 +60,13 @@ async def lego(event):
  await event.reply('Creating your logo...wait!')
  try:
     text = event.pattern_match.group(1)
-    img = Image.open('./IzumiRobot/resources/blackbg.jpg')
+    img = Image.open('./AmeliaRobot/resources/blackbg.jpg')
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
     pointsize = 500
     fillcolor = "white"
     shadowcolor = "blue"
-    font = ImageFont.truetype("./IzumiRobot/resources/Maghrib.ttf", 1000)
+    font = ImageFont.truetype("./AmeliaRobot/resources/Maghrib.ttf", 1000)
     w, h = draw.textsize(text, font=font)
     h += int(h*0.21)
     image_width, image_height = img.size

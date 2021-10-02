@@ -13,7 +13,7 @@
 
 from sqlalchemy import Column, String
 
-from IzumiRobot.modules.sql import BASE, SESSION
+from AmeliaRobot.modules.sql import BASE, SESSION
 
 
 class Nsfwatch(BASE):

@@ -1,6 +1,6 @@
 import threading
 
-from IzumiRobot.modules.sql import BASE, SESSION
+from AmeliaRobot.modules.sql import BASE, SESSION
 from sqlalchemy import Column, Integer, String, UnicodeText, distinct, func
 
 

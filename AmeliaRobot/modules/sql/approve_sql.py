@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, String, UnicodeText, Integer, func, distinct
 
-from IzumiRobot.modules.sql import BASE, SESSION
+from AmeliaRobot.modules.sql import BASE, SESSION
 
 
 class Approvals(BASE):

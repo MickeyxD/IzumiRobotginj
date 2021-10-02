@@ -5,8 +5,8 @@ import textwrap
 import bs4
 import jikanpy
 import requests
-from IzumiRobot import DEV_USERS, OWNER_ID, DRAGONS, dispatcher
-from IzumiRobot.modules.disable import DisableAbleCommandHandler
+from AmeliaRobot import DEV_USERS, OWNER_ID, DRAGONS, dispatcher
+from AmeliaRobot.modules.disable import DisableAbleCommandHandler
 from telegram import (InlineKeyboardButton, InlineKeyboardMarkup, ParseMode,
                       Update)
 from telegram.ext import CallbackContext, CallbackQueryHandler, run_async

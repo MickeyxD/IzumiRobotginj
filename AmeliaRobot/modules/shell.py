@@ -1,7 +1,7 @@
 import subprocess
 
-from IzumiRobot import LOGGER, dispatcher
-from IzumiRobot.modules.helper_funcs.chat_status import dev_plus
+from AmeliaRobot import LOGGER, dispatcher
+from AmeliaRobot.modules.helper_funcs.chat_status import dev_plus
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, CommandHandler
 from telegram.ext.dispatcher import run_async

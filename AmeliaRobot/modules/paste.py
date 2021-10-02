@@ -1,6 +1,6 @@
 import requests
-from IzumiRobot import dispatcher
-from IzumiRobot.modules.disable import DisableAbleCommandHandler
+from AmeliaRobot import dispatcher
+from AmeliaRobot.modules.disable import DisableAbleCommandHandler
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 

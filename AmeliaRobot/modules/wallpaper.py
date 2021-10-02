@@ -1,8 +1,8 @@
 from random import randint
 
 import requests as r
-from IzumiRobot import SUPPORT_CHAT, WALL_API, dispatcher
-from IzumiRobot.modules.disable import DisableAbleCommandHandler
+from AmeliaRobot import SUPPORT_CHAT, WALL_API, dispatcher
+from AmeliaRobot.modules.disable import DisableAbleCommandHandler
 from telegram import Update
 from telegram.ext import CallbackContext, run_async
 

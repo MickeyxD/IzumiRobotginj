@@ -12,8 +12,8 @@ from telegram import TelegramError, Update
 from telegram.ext import run_async, CallbackContext
 from telegram.utils.helpers import mention_html
 
-from IzumiRobot import dispatcher
-from IzumiRobot.modules.disable import DisableAbleCommandHandler
+from AmeliaRobot import dispatcher
+from AmeliaRobot.modules.disable import DisableAbleCommandHandler
 
 combot_stickers_url = "https://combot.org/telegram/stickers?q="
 

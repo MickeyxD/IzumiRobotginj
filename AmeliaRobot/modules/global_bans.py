@@ -14,9 +14,9 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html
 
-import IzumiRobot.modules.sql.global_bans_sql as sql
-from IzumiRobot.modules.sql.users_sql import get_user_com_chats
-from IzumiRobot import (
+import AmeliaRobot.modules.sql.global_bans_sql as sql
+from AmeliaRobot.modules.sql.users_sql import get_user_com_chats
+from AmeliaRobot import (
     DEV_USERS,
     EVENT_LOGS,
     OWNER_ID,
@@ -30,16 +30,16 @@ from IzumiRobot import (
     sw,
     dispatcher,
 )
-from IzumiRobot.modules.helper_funcs.chat_status import (
+from AmeliaRobot.modules.helper_funcs.chat_status import (
     is_user_admin,
     support_plus,
     user_admin,
 )
-from IzumiRobot.modules.helper_funcs.extraction import (
+from AmeliaRobot.modules.helper_funcs.extraction import (
     extract_user,
     extract_user_and_text,
 )
-from IzumiRobot.modules.helper_funcs.misc import send_to_list
+from AmeliaRobot.modules.helper_funcs.misc import send_to_list
 
 GBAN_ENFORCE_GROUP = 6
 

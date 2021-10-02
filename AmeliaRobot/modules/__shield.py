@@ -25,21 +25,21 @@ from google_trans_new import google_translator
 from telethon import events
 from telethon.tl.types import ChatBannedRights
 
-from IzumiRobot import BOT_ID
-from IzumiRobot.conf import get_int_key, get_str_key
+from AmeliaRobot import BOT_ID
+from AmeliaRobot.conf import get_int_key, get_str_key
 
-# from IzumiRobot.db.mongo_helpers.nsfw_guard import add_chat, get_all_nsfw_chats, is_chat_in_db, rm_chat
-from IzumiRobot.pyrogramee.telethonbasics import is_admin
-from IzumiRobot.events import register
-from IzumiRobot import MONGO_DB_URI 
+# from AmeliaRobot.db.mongo_helpers.nsfw_guard import add_chat, get_all_nsfw_chats, is_chat_in_db, rm_chat
+from AmeliaRobot.pyrogramee.telethonbasics import is_admin
+from AmeliaRobot.events import register
+from AmeliaRobot import MONGO_DB_URI 
 from pymongo import MongoClient
-from IzumiRobot.modules.sql_extended.nsfw_watch_sql import (
+from AmeliaRobot.modules.sql_extended.nsfw_watch_sql import (
     add_nsfwatch,
     get_all_nsfw_enabled_chat,
     is_nsfwatch_indb,
     rmnsfwatch,
 )
-from IzumiRobot import telethn as tbot
+from AmeliaRobot import telethn as tbot
 
 translator = google_translator()
 MUTE_RIGHTS = ChatBannedRights(until_date=None, send_messages=False)

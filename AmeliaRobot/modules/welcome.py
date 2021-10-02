@@ -5,9 +5,9 @@ import time
 from functools import partial
 from contextlib import suppress
 
-import IzumiRobot.modules.sql.welcome_sql as sql
-import IzumiRobot
-from IzumiRobot import (
+import AmeliaRobot.modules.sql.welcome_sql as sql
+import AmeliaRobot
+from AmeliaRobot import (
     DEV_USERS,
     LOGGER,
     OWNER_ID,
@@ -19,18 +19,18 @@ from IzumiRobot import (
     dispatcher,
     JOIN_LOGGER
 )
-from IzumiRobot.modules.helper_funcs.chat_status import (
+from AmeliaRobot.modules.helper_funcs.chat_status import (
     is_user_ban_protected,
     user_admin,
 )
-from IzumiRobot.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from IzumiRobot.modules.helper_funcs.msg_types import get_welcome_type
-from IzumiRobot.modules.helper_funcs.string_handling import (
+from AmeliaRobot.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from AmeliaRobot.modules.helper_funcs.msg_types import get_welcome_type
+from AmeliaRobot.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
     markdown_parser,
 )
-from IzumiRobot.modules.log_channel import loggable
-from IzumiRobot.modules.sql.global_bans_sql import is_user_gbanned
+from AmeliaRobot.modules.log_channel import loggable
+from AmeliaRobot.modules.sql.global_bans_sql import is_user_gbanned
 from telegram import (
     ChatPermissions,
     InlineKeyboardButton,

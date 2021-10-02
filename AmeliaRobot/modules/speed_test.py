@@ -1,7 +1,7 @@
 import speedtest
-from IzumiRobot import DEV_USERS, dispatcher
-from IzumiRobot.modules.disable import DisableAbleCommandHandler
-from IzumiRobot.modules.helper_funcs.chat_status import dev_plus
+from AmeliaRobot import DEV_USERS, dispatcher
+from AmeliaRobot.modules.disable import DisableAbleCommandHandler
+from AmeliaRobot.modules.helper_funcs.chat_status import dev_plus
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.ext import CallbackContext, CallbackQueryHandler, run_async
 

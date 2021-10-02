@@ -1,6 +1,6 @@
-from IzumiRobot import telethn as tbot
+from AmeliaRobot import telethn as tbot
 import os
-from IzumiRobot.events import register
+from AmeliaRobot.events import register
 import secureme
 
 @register(pattern="^/encrypt ?(.*)")

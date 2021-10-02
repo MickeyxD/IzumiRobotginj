@@ -2,9 +2,9 @@ import sre_constants
 
 import regex
 import telegram
-from IzumiRobot import LOGGER, dispatcher
-from IzumiRobot.modules.disable import DisableAbleMessageHandler
-from IzumiRobot.modules.helper_funcs.regex_helper import infinite_loop_check
+from AmeliaRobot import LOGGER, dispatcher
+from AmeliaRobot.modules.disable import DisableAbleMessageHandler
+from AmeliaRobot.modules.helper_funcs.regex_helper import infinite_loop_check
 from telegram import Update
 from telegram.ext import CallbackContext, Filters, run_async
 

@@ -1,6 +1,6 @@
 from enum import IntEnum, unique
 
-from IzumiRobot.modules.helper_funcs.string_handling import button_markdown_parser
+from AmeliaRobot.modules.helper_funcs.string_handling import button_markdown_parser
 from telegram import Message
 
 

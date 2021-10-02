@@ -15,25 +15,25 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import mention_html, escape_markdown
 
-from IzumiRobot import dispatcher, LOGGER, DRAGONS
-from IzumiRobot.modules.disable import DisableAbleCommandHandler
-from IzumiRobot.modules.helper_funcs.handlers import MessageHandlerChecker
-from IzumiRobot.modules.helper_funcs.chat_status import user_admin
-from IzumiRobot.modules.helper_funcs.extraction import extract_text
-from IzumiRobot.modules.helper_funcs.filters import CustomFilters
-from IzumiRobot.modules.helper_funcs.misc import build_keyboard_parser
-from IzumiRobot.modules.helper_funcs.msg_types import get_filter_type
-from IzumiRobot.modules.helper_funcs.string_handling import (
+from AmeliaRobot import dispatcher, LOGGER, DRAGONS
+from AmeliaRobot.modules.disable import DisableAbleCommandHandler
+from AmeliaRobot.modules.helper_funcs.handlers import MessageHandlerChecker
+from AmeliaRobot.modules.helper_funcs.chat_status import user_admin
+from AmeliaRobot.modules.helper_funcs.extraction import extract_text
+from AmeliaRobot.modules.helper_funcs.filters import CustomFilters
+from AmeliaRobot.modules.helper_funcs.misc import build_keyboard_parser
+from AmeliaRobot.modules.helper_funcs.msg_types import get_filter_type
+from AmeliaRobot.modules.helper_funcs.string_handling import (
     split_quotes,
     button_markdown_parser,
     escape_invalid_curly_brackets,
     markdown_to_html,
 )
-from IzumiRobot.modules.sql import cust_filters_sql as sql
+from AmeliaRobot.modules.sql import cust_filters_sql as sql
 
-from IzumiRobot.modules.connection import connected
+from AmeliaRobot.modules.connection import connected
 
-from IzumiRobot.modules.helper_funcs.alternate import send_message, typing_action
+from AmeliaRobot.modules.helper_funcs.alternate import send_message, typing_action
 
 HANDLER_GROUP = 10
 

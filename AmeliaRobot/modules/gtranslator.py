@@ -3,8 +3,8 @@ from google_trans_new import LANGUAGES, google_translator
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 
-from IzumiRobot import dispatcher
-from IzumiRobot.modules.disable import DisableAbleCommandHandler
+from AmeliaRobot import dispatcher
+from AmeliaRobot.modules.disable import DisableAbleCommandHandler
 
 
 @run_async

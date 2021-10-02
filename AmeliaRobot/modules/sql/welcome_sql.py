@@ -2,8 +2,8 @@ import random
 import threading
 from typing import Union
 
-from IzumiRobot.modules.helper_funcs.msg_types import Types
-from IzumiRobot.modules.sql import BASE, SESSION
+from AmeliaRobot.modules.helper_funcs.msg_types import Types
+from AmeliaRobot.modules.sql import BASE, SESSION
 from sqlalchemy import BigInteger, Boolean, Column, Integer, String, UnicodeText
 
 DEFAULT_WELCOME = "Hey {first}, how are you?"

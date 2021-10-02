@@ -1,7 +1,7 @@
 # Module to blacklist users and prevent them from using commands by @TheRealPhoenix
 import html
-import IzumiRobot.modules.sql.blacklistusers_sql as sql
-from IzumiRobot import (
+import AmeliaRobot.modules.sql.blacklistusers_sql as sql
+from AmeliaRobot import (
     DEV_USERS,
     OWNER_ID,
     DRAGONS,
@@ -10,12 +10,12 @@ from IzumiRobot import (
     WOLVES,
     dispatcher,
 )
-from IzumiRobot.modules.helper_funcs.chat_status import dev_plus
-from IzumiRobot.modules.helper_funcs.extraction import (
+from AmeliaRobot.modules.helper_funcs.chat_status import dev_plus
+from AmeliaRobot.modules.helper_funcs.extraction import (
     extract_user,
     extract_user_and_text,
 )
-from IzumiRobot.modules.log_channel import gloggable
+from AmeliaRobot.modules.log_channel import gloggable
 from telegram import ParseMode, Update
 from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, run_async

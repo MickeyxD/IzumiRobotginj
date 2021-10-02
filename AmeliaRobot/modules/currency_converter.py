@@ -1,5 +1,5 @@
 import requests
-from IzumiRobot import CASH_API_KEY, dispatcher
+from AmeliaRobot import CASH_API_KEY, dispatcher
 from telegram import Update, ParseMode
 from telegram.ext import CallbackContext, CommandHandler, run_async
 

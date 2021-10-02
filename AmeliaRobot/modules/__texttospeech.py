@@ -1,4 +1,4 @@
-from IzumiRobot import telethn as tbot
+from AmeliaRobot import telethn as tbot
 import os
 
 from gtts import gTTS
@@ -8,9 +8,9 @@ from telethon.tl import functions
 from telethon.tl import types
 from telethon.tl.types import *
 
-from IzumiRobot import *
+from AmeliaRobot import *
 
-from IzumiRobot.events import register
+from AmeliaRobot.events import register
 
 
 async def is_register_admin(chat, user):

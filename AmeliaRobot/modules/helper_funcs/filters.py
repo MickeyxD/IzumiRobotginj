@@ -1,4 +1,4 @@
-from IzumiRobot import DEV_USERS, DRAGONS, DEMONS
+from AmeliaRobot import DEV_USERS, DRAGONS, DEMONS
 from telegram import Message
 from telegram.ext import BaseFilter
 

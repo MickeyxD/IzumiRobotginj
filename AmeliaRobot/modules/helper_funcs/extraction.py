@@ -1,6 +1,6 @@
 from typing import List, Optional
-from IzumiRobot import LOGGER
-from IzumiRobot.modules.users import get_user_id
+from AmeliaRobot import LOGGER
+from AmeliaRobot.modules.users import get_user_id
 from telegram import Message, MessageEntity
 from telegram.error import BadRequest
 

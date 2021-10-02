@@ -3,9 +3,9 @@ import re
 from typing import Optional
 
 import telegram
-from IzumiRobot import TIGERS, WOLVES, dispatcher
-from IzumiRobot.modules.disable import DisableAbleCommandHandler
-from IzumiRobot.modules.helper_funcs.chat_status import (
+from AmeliaRobot import TIGERS, WOLVES, dispatcher
+from AmeliaRobot.modules.disable import DisableAbleCommandHandler
+from AmeliaRobot.modules.helper_funcs.chat_status import (
     bot_admin,
     can_restrict,
     is_user_admin,
@@ -14,16 +14,16 @@ from IzumiRobot.modules.helper_funcs.chat_status import (
     user_admin_no_reply,
     can_delete,
 )
-from IzumiRobot.modules.helper_funcs.extraction import (
+from AmeliaRobot.modules.helper_funcs.extraction import (
     extract_text,
     extract_user,
     extract_user_and_text,
 )
-from IzumiRobot.modules.helper_funcs.filters import CustomFilters
-from IzumiRobot.modules.helper_funcs.misc import split_message
-from IzumiRobot.modules.helper_funcs.string_handling import split_quotes
-from IzumiRobot.modules.log_channel import loggable
-from IzumiRobot.modules.sql import warns_sql as sql
+from AmeliaRobot.modules.helper_funcs.filters import CustomFilters
+from AmeliaRobot.modules.helper_funcs.misc import split_message
+from AmeliaRobot.modules.helper_funcs.string_handling import split_quotes
+from AmeliaRobot.modules.log_channel import loggable
+from AmeliaRobot.modules.sql import warns_sql as sql
 from telegram import (
     CallbackQuery,
     Chat,
@@ -45,7 +45,7 @@ from telegram.ext import (
     run_async,
 )
 from telegram.utils.helpers import mention_html
-from IzumiRobot.modules.sql.approve_sql import is_approved
+from AmeliaRobot.modules.sql.approve_sql import is_approved
 
 WARN_HANDLER_GROUP = 9
 CURRENT_WARNING_FILTER_STRING = "<b>Current warning filters in this chat:</b>\n"

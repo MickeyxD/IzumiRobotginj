@@ -1,8 +1,8 @@
 import importlib
 import collections
 
-from IzumiRobot import dispatcher, telethn
-from IzumiRobot.__main__ import (
+from AmeliaRobot import dispatcher, telethn
+from AmeliaRobot.__main__ import (
     CHAT_SETTINGS,
     DATA_EXPORT,
     DATA_IMPORT,
@@ -13,7 +13,7 @@ from IzumiRobot.__main__ import (
     USER_INFO,
     USER_SETTINGS,
 )
-from IzumiRobot.modules.helper_funcs.chat_status import dev_plus, sudo_plus
+from AmeliaRobot.modules.helper_funcs.chat_status import dev_plus, sudo_plus
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 

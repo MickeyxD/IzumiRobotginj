@@ -1,6 +1,6 @@
-from IzumiRobot.modules.helper_funcs.chat_status import user_admin
-from IzumiRobot.modules.disable import DisableAbleCommandHandler
-from IzumiRobot import dispatcher
+from AmeliaRobot.modules.helper_funcs.chat_status import user_admin
+from AmeliaRobot.modules.disable import DisableAbleCommandHandler
+from AmeliaRobot import dispatcher
 
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram import ParseMode, Update

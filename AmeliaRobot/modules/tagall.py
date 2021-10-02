@@ -9,8 +9,8 @@
 
 from pyrogram import filters
 
-from IzumiRobot.pyrogramee.pluginshelper import admins_only, get_text
-from IzumiRobot import pbot
+from AmeliaRobot.pyrogramee.pluginshelper import admins_only, get_text
+from AmeliaRobot import pbot
 
 
 @pbot.on_message(filters.command("tagall") & ~filters.edited & ~filters.bot)
